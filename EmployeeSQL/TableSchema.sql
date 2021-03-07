@@ -5,12 +5,10 @@ CREATE TABLE departments(
 CREATE TABLE dept_emp(
     emp_no INT,
     dept_no VARCHAR,
-    dept_name VARCHAR
 );
 CREATE TABLE dept_manager(
     dept_no VARCHAR,
     emp_no INT,
-    dept_name VARCHAR
 );
 CREATE TABLE employees(
     emp_no INT,
@@ -28,5 +26,4 @@ CREATE TABLE salaries(
 CREATE TABLE titles(
     title_id VARCHAR,
     title VARCHAR,
-    emp_no INT
 );
